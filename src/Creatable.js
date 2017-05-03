@@ -73,7 +73,7 @@ const Creatable = React.createClass({
 			menuRenderer: defaultMenuRenderer,
 			newOptionCreator,
 			promptTextCreator,
-			showNewOptionAtTop: true,
+			showNewOptionAtTop: false,
 			shouldKeyDownEventCreateNewOption,
 		};
 	},
