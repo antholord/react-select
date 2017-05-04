@@ -66,7 +66,6 @@ const Creatable = React.createClass({
 	},
 
 	getDefaultProps () {
-		console.log("default");
 		return {
 			filterOptions: defaultFilterOptions,
 			isOptionUnique,

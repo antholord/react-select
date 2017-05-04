@@ -440,7 +440,7 @@ var Creatable = _react2['default'].createClass({
 				if (onNewOptionClick) {
 					onNewOptionClick(option);
 				} else {
-					options.unshift(option);
+					options.push(option);
 
 					this.select.selectValue(option);
 				}
@@ -487,7 +487,7 @@ var Creatable = _react2['default'].createClass({
 					valueKey: this.valueKey
 				});
 
-				filteredOptions.unshift(this._createPlaceholderOption);
+				filteredOptions.push(this._createPlaceholderOption);
 			}
 		}
 
